@@ -94,6 +94,5 @@ def run_b():
     result = solve_b("data.txt")
     print(result)
 
-
 run_a()
 run_b()

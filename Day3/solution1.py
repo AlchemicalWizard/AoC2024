@@ -8,8 +8,6 @@ def test(input, expected):
     if(input != expected):
         raise Exception("Test failed, expected " + str(expected) + " but received " + str(input))
     print("test passed")
-    
-
 
 def solve_a(file):
     string = parse_data(file)
